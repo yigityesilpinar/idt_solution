@@ -1,7 +1,7 @@
 {
   "name": "idt_solution",
   "version": "1.0.0",
-  "description": "Solution application for Idt messaging task, simple Chat application with node.js, socket.io, HTML5, JavaScript, CSS",
+  "description": "Solution application for Idt messaging task, simple Chat application with node.js, socket.io, HTML5, JavaScript(Plain ES5), CSS, ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
