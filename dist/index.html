@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IDT Solution</title>
+    <link href="bundle.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="row">
+        Welcome to the Chat App <span id="user_span"></span>!
+    </div>
+
+    <!-- Container for chat messages-->
+    <div class="message-container">
+        <ul id="message_container" class="dynamic-container"></ul>
+    </div>
+
+    <!-- Container for list of users-->
+    <div class="user-list">
+        <ul id="user_list" class="dynamic-container">
+        </ul>
+    </div>
+
+    <!-- Container for Send Message-->
+    <div class="write-div">
+            <div class="change-row">
+            Message box:
+             </div>
+            <input id="message_input" placeholder="Write your message here..." autocomplete="off" />
+
+            <a class="button" id="message_send">
+                <span>Send</span>
+            </a>
+
+    </div>
+
+    <!-- Container for Change Username-->
+    <div class="change-div">
+        <div class="change-row">
+            Your user name:
+        </div>
+        <input id="user_name" autocomplete="off"/>
+        <a class="button" id="change_name">
+            <span>Change</span>
+        </a>
+    </div>
+</body>
+<!-- socket.io server side library automatically handles this request -->
+<script src="/socket.io/socket.io.js"></script>
+<script src="bundle.js">
+</script>
+</html>
